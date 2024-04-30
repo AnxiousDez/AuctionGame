@@ -66,7 +66,7 @@ class AuctionGame:
         self.strategy_var = tk.StringVar(self.root)
         self.strategy_var.set("Random")
         tk.Label(self.root, text="Select Bidding Strategy:", font=("Arial", 12), bg="#f0f0f0").place(x=50, y=350)
-        tk.OptionMenu(self.root, self.strategy_var, "Random", "Value-Based").place(x=200, y=345)
+        tk.OptionMenu(self.root, self.strategy_var, "Random", "Value-Based").place(x=250, y=345)
 
         # Start button
         start_button = tk.Button(self.root, text="Start Game", font=("Arial", 14), command=self.start_game, bg="#4CAF50", fg="white")
