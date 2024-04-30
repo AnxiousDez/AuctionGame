@@ -6,6 +6,7 @@ Key Features:
 Interactive GUI: The game provides a user-friendly graphical interface for inputting player names, values, reserve price, number of rounds, and bidding strategy selection.
 Player Customization: Players can customize their names and the values they place on the auctioned item.
 Bidding Strategies: The game offers two bidding strategies for players to choose from: random bidding and value-based bidding.
+
 Simulation: The game simulates multiple rounds of bidding based on the specified parameters and displays the results, including average payoffs for each player and the auctioneer.
 How to Play:
 
@@ -26,5 +27,7 @@ Make sure you have Python installed.
 Install the required dependencies (pillow library) using pip install pillow.
 Run the gametheory.py script using Python.
 Follow the on-screen instructions to play the game.
+
+
 Contributing:
 Contributions are welcome! If you have any suggestions, bug fixes, or improvements, feel free to open an issue or submit a pull request.
